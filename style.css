@@ -1,0 +1,104 @@
+body{
+    margin: 0%;
+    font-family: Arial;
+    background: white;
+}
+
+header{
+    background: orange;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 2Opx;
+
+}
+
+.acc{
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.acc h2{
+    font-size: 50px;
+}
+.acc p{
+    font-size: 20px;
+
+}
+
+button{
+    padding: 12px 25px;
+    border: none;
+    background: orange;
+    color:white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.produits{
+    display: flex;
+
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 40px;
+
+}
+
+.prod{
+    background: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow:0 0 10px rgba(red, green, blue, alpha);
+    text-align: center;
+}
+.prod img{
+    width: 100%;
+
+    border-radius: 10px;
+}
+.contact{
+    padding: 40px;
+    text-align: center;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+
+}
+input,textarea{
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid gray;
+
+}
+footer{
+    background: rgb(18, 27, 29);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+.acc img body img{
+     width: 30%;
+    border-radius: 10px;
+}
